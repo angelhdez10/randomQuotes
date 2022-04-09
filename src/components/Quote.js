@@ -77,7 +77,7 @@ const Quote = ({quote, theme, changeColor, newQuote}) => {
       <Div>
         <Buttons theme={theme}>
           <a href="https://twitter.com/intent/tweet" target="_blank" id="tweet-quote" ><i class="fa-brands fa-twitter"></i></a>
-          <a href="" target="_blank" ><i class="fa-brands fa-tumblr"></i></a>
+          <a href="https://www.tumblr.com/widgets/share/tool" target="_blank" ><i class="fa-brands fa-tumblr"></i></a>
         </Buttons>
         <NewQuote id="new-quote" theme={theme} onClick={newQuote}>New quote</NewQuote>
       </Div>
